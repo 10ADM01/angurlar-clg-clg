@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #333;
+  color: white;
+}
+
+nav .logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header {
+  background: url('https://cdn.pixabay.com/photo/2017/09/01/13/56/university-2704306_640.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+}
+
+.hero-button {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.program-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+  width: 30%;
+}
+
+.contact-info {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+#statistics {
+  background-color: #f8f8f8;
+  padding: 60px 20px;
+}
+
+#statistics h2 {
+  margin-bottom: 20px;
+}
+
+#statistics p {
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.statistics-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stat {
+  text-align: center;
+  margin: 20px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.stat h3 {
+  font-size: 2.5rem;
+  color: #f90;
+  margin-bottom: 10px;
+}
+
+.stat p {
+  font-size: 1.2rem;
+  color: #333;
+}
+.admission-vacancies {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin: 20px 0;
+}
+
+.admission-vacancies a {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  background-color: #121518;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.admission-vacancies a:hover {
+  background-color: #0e0f11;
+}
